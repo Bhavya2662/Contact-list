@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         db.updateContact(aergia);
         //db.deleteContactById(1);
         ArrayList<String> contacts= new ArrayList<>();
-        listView = findViewById(R.id.list_view);
+//        listView = findViewById(R.id.list_view);
 
 
         List<Contact> allContacts = db.getAllContacts();
